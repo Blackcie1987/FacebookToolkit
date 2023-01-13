@@ -1,216 +1,192 @@
-<H1 align="center">
-FACEBOOK TOOLKIT
-</H1>
-<H4 align="center">
-a tool to get Facebook data, and some Facebook bots, and extra tools found on Facebook Toolkit ++.</br>
-Graph API Facebook.</br>
-</H4>
-<p align="center">
-<a href="https://github.com/warifp"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/warifp/FacebookToolkit.svg"/></a>
-<a href="https://github.com/warifp"><img alt="Version" src="https://img.shields.io/github/release/warifp/FacebookToolkit.svg"/></a>
-<a href="https://github.com/warifp"><img alt="Contributors" src="https://img.shields.io/github/contributors/warifp/FacebookToolkit.svg"/></a>
-<a href="https://github.com/warifp"><img alt="Language" src="https://img.shields.io/github/languages/count/warifp/FacebookToolkit.svg"/></a>
-<a href="https://github.com/warifp"><img alt="TopLanguage" src="https://img.shields.io/github/languages/top/warifp/FacebookToolkit.svg"/></a>
-</br>
-<a href="https://github.com/warifp"><img alt="Search" src="https://img.shields.io/github/search/warifp/FacebookToolkit/facebook.svg"/></a>
-<a href="https://github.com/warifp"><img alt="Repository Size" src="https://img.shields.io/github/repo-size/warifp/FacebookToolkit.svg"/></a>
-<a href="https://github.com/warifp"><img alt="Repository Size" src="https://img.shields.io/github/forks/warifp/FacebookToolkit.svg"/></a>
-<a href="https://github.com/warifp"><img alt="Repository Size" src="https://img.shields.io/github/stars/warifp/FacebookToolkit.svg"/></a>
-</p>
 
-<p align="center">
-Made with ❤️ by <a href="https://github.com/warifp">Wahyu Arif Purnomo</a>
-</p>
+guerra
+/
+Kit de herramientas de Facebook
+Público
+una herramienta para obtener datos de Facebook, y algunos bots de Facebook, y herramientas adicionales que se encuentran en Facebook Toolkit ++.
 
-<p align="center">
-  <img src="images/version/1.3.png" width="350" title="Version 1.3" alt="Version 1.3">
-  <img src="images/version/1.4.png" width="350" title="Version 1.4" alt="Version 1.4">
-</p>
+Licencia
+ licencia MIT
+ 572 estrellas 219 tenedores 
+Código
+Asuntos
+41
+Solicitudes de extracción
+1
+Discusiones
+Comportamiento
+Proyectos
+Seguridad
+Perspectivas
+warifp/FacebookToolkit
+Última confirmación
+@warifp
+guerra
+…
+el 26 sep 2022
+Estadísticas de Git
+archivos
+LÉAME.md
+KIT DE HERRAMIENTAS DE FACEBOOK
+una herramienta para obtener datos de Facebook, y algunos bots de Facebook, y herramientas adicionales que se encuentran en Facebook Toolkit ++.
+Gráfico API Facebook.
+Última confirmación Versión Colaboradores Idioma TopIdioma
+Buscar Tamaño del repositorio Tamaño del repositorio Tamaño del repositorio
 
-<p align="center">
-  <a><br> UPDATE 1.4 </br></a>
-  <img src="images/add_access_token.png" width="640" title="Version 1.4" alt="Version 1.4">
-</p>
+Hecho con❤️por Wahyu Arif Purnomo
 
-<p align="center">
-  <a><br> UPDATE 1.5 </br></a>
-  <img src="images/version/1.5.png" width="640" title="Version 1.5" alt="Version 1.5">
-</p>
+Versión 1.3 Versión 1.4
 
-<p align="center">
-  <a><br> UPDATE 1.6 </br></a>
-  <img src="images/version/1.6.png" width="640" title="Version 1.6" alt="Version 1.6">
-</p>
 
-## Features in tools
+ACTUALIZAR 1.4
+Versión 1.4
 
-| Name                               | Status             | Information                                        |
-| ---------------------------------- | ------------------ | -------------------------------------------------- |
-| Get Access Token                   | :white_check_mark: | get access token your facebook account             |
-| Account Information                | :white_check_mark: | view your account information                      |
-| Dump ID                            | :white_check_mark: | retrieve all your friend's ID data                 |
-| Dump Email                         | :white_check_mark: | retrieve all your friend's Email data              |
-| Dump Name                          | :white_check_mark: | retrieve all your friend's Name data               |
-| Dump Birthday                      | :white_check_mark: | retrieve all your friend's Birthday data           |
-| Dump Gender                        | :white_check_mark: | retrieve all your friend's Gender data             |
-| Dump Location                      | :white_check_mark: | retrieve all your friend's Location data           |
-| Dump URL Profile                   | :white_check_mark: | retrieve all your friend's url profile data        |
-| Dump Mobile Number                 | :white_check_mark: | retrieve all your friend's mobile number data      |
-| Dump Religion                      | :white_check_mark: | retrieve all your friend's religion data           |
-| Dump Username                      | :white_check_mark: | retrieve all your friend's username data           |
-| Dump Bio                           | :white_check_mark: | retrieve all your friend's bio data                |
-| Dump About                         | :white_check_mark: | retrieve all your friend's about data              |
-| Filter Yahoo Mail                  | :white_check_mark: | separate all Yahoo e-mails [yahoo.com]             |
-| Yahoo Mail Validation              | :white_check_mark: | validate all Yahoo e-mails                         |
-| Clean Result                       | :white_check_mark: | clean the result folder                            |
-| Delete ALL Post                    | :white_check_mark: | clean all your posts                               |
-| Unfriend ALL                       | :white_check_mark: | clean all your friends                             |
-| Confirmation ALL                   | :white_check_mark: | confirm all friend requests                        |
-| Confirmation ALL [Male]            | :white_check_mark: | confirm all friend requests based on male sex      |
-| Confirmation ALL [Female]          | :white_check_mark: | onfirm all friend requests based on female sex     |
-| View Data                          | :white_check_mark: | see your friends data based on your username or ID |
-| Dump ID Member Group               | :white_check_mark: | retrieve all ID member on group database           |
-| Dump Username Profile Member Group | :white_check_mark: | retrieve all username member on group database     |
-| Dump URL Profile Member Group      | :white_check_mark: | retrieve all url profile member on group database  |
-| Brute Force ID                     | :white_check_mark: | brute force your friends by ID                     |
-| Brute Force ID Member Group        | :white_check_mark: | brute force Member Group by ID                     |
 
-## Version
+ACTUALIZAR 1.5
+Versión 1.5
 
-Version 1.0 :
 
-    https://www.facebook.com/warifp/videos/2340053176234744/
+ACTUALIZAR 1.6
+Versión 1.6
 
-Changelog :
+Funciones en herramientas
+Nombre	Estado	Información
+Obtener token de acceso	✅	obtén token de acceso a tu cuenta de facebook
+Información de la cuenta	✅	ver la información de su cuenta
+ID de volcado	✅	recuperar todos los datos de identificación de su amigo
+Volcar correo electrónico	✅	recuperar todos los datos de correo electrónico de su amigo
+Nombre de volcado	✅	recupera todos los datos de nombre de tu amigo
+Volcado de cumpleaños	✅	recupera todos los datos de cumpleaños de tu amigo
+Volcar género	✅	recupera todos los datos de género de tu amigo
+Ubicación de volcado	✅	recupera todos los datos de ubicación de tu amigo
+Volcar perfil de URL	✅	recupera todos los datos de perfil de URL de tu amigo
+Volcar número de móvil	✅	recupera todos los datos del número de móvil de tu amigo
+Religión de volcado	✅	recupera todos los datos de religión de tu amigo
+Volcar nombre de usuario	✅	recupera todos los datos de nombre de usuario de tu amigo
+Volcar biografía	✅	recupera todos los datos biográficos de tu amigo
+volcar sobre	✅	recupera todos los datos de tus amigos
+Filtrar el correo de Yahoo	✅	separe todos los correos electrónicos de Yahoo [yahoo.com]
+Validación de correo de Yahoo	✅	validar todos los correos electrónicos de Yahoo
+Resultado limpio	✅	limpiar la carpeta de resultados
+Eliminar TODAS las publicaciones	✅	limpia todas tus publicaciones
+Dejar de ser amigo de TODOS	✅	limpia a todos tus amigos
+Confirmación TODO	✅	confirmar todas las solicitudes de amistad
+Confirmación TODOS [Hombre]	✅	confirmar todas las solicitudes de amistad basadas en el sexo masculino
+Confirmación TODOS [Femenino]	✅	onfirme todas las solicitudes de amistad basadas en el sexo femenino
+Ver datos	✅	ver los datos de tus amigos según tu nombre de usuario o ID
+Grupo de miembros de ID de volcado	✅	recuperar todos los miembros de ID en la base de datos del grupo
+Volcar el grupo de miembros del perfil del nombre de usuario	✅	recuperar todos los miembros del nombre de usuario en la base de datos del grupo
+Grupo de miembros de perfil de URL de volcado	✅	recuperar todos los miembros del perfil de URL en la base de datos del grupo
+ID de fuerza bruta	✅	fuerza bruta a tus amigos por ID
+Grupo de miembros de ID de fuerza bruta	✅	grupo de miembros de fuerza bruta por ID
+Versión
+Versión 1.0:
 
-- Add tools
+https://www.facebook.com/warifp/videos/2340053176234744/
+Registro de cambios:
 
-Version 1.2 :
+Agregar herramientas
+Versión 1.2:
 
-    https://www.facebook.com/warifp/videos/2339461559627239/
+https://www.facebook.com/warifp/videos/2339461559627239/
+Registro de cambios:
 
-Changelog :
+Añadir herramientas++
+Versión 1.3:
 
-- Add tools++
+https://www.facebook.com/photo.php?fbid=2340608509512544
+Registro de cambios:
 
-Version 1.3 :
+reconstruir con el clima
+sistema de compresión
+añadir archivo de motor
+añadir archivo de color
+añadir archivo aleatorio
+cambiar el resultado de la carpeta
+añadir configuración de carpeta y archivo
+Versión 1.4:
 
-    https://www.facebook.com/photo.php?fbid=2340608509512544
+https://www.facebook.com/warifp/videos/2340053176234744/
+Registro de cambios:
 
-Changelog :
+agregar obtener ID Grupo de miembros
+agregar obtener Nombre de usuario Grupo de miembros
+agregar obtener URL Grupo de miembros del perfil
+añadir menú de argumentos, versión, última actualización.
+agregar requisitos de verificación automática
+agregar token de acceso de validación de verificación automática
+añadir historia
+agregar paso de comentario
+función de compresión
+mejoras en la visualización
+y otras mejoras
+Versión 1.5:
 
-- re-build with Climate
-- compress system
-- add engine file
-- add color file
-- add random file
-- change folder result
-- add folder and file config
+https://www.facebook.com/photo.php?fbid=2345150569058338
+Registro de cambios:
 
-Version 1.4 :
+función de reparación
+arreglar biblioteca
+y otra.
+Instalación
+Windows/Linux/macOS
+Puede descargar el último compositor aquí .
 
-    https://www.facebook.com/warifp/videos/2340053176234744/
+git clone https://github.com/warifp/FacebookToolkit
+cd FacebookToolkit
+composer install
+Termux
+pkg install php
+pkg install curl
+pkg update
 
-Changelog :
+git clone https://github.com/warifp/FacebookToolkit
+cd FacebookToolkit
+composer install
+Requisitos para usar esta herramienta
+Necesitamos varios requisitos para usar esta herramienta para que funcione sin problemas.
 
-- add get ID Member Group
-- add get Username Member Group
-- add get URL Profile Member Group
-- add arguments menu, version, last update.
-- add auto check requirements
-- add auto check validation access token
-- add story
-- add comment step
-- compress function
-- display improvements
-- and other improvements
+Linux y mac OS
+PHP 7.X rizo PHP
 
-Version 1.5 :
+ventanas
+rizo PHP
 
-    https://www.facebook.com/photo.php?fbid=2345150569058338
+Uso
+Suficiente para ejecutar el comando:
 
-Changelog :
+php run.php
+Herramientas de menú de la lista Cek, use el comando:
 
-- fix feature
-- fix library
-- and other.
+php run.php -m
+Cek autor, use el comando:
 
-## Installation
+php run.php -a
+Versión Cek, use el comando:
 
-### Windows / Linux / macOS
+php run.php -v
+Actualización de Cek, use el comando:
 
-You can download the latest composer in [here](https://getcomposer.org/download/).
+php run.php -u
+y ayuda, usa el comando:
 
-    git clone https://github.com/warifp/FacebookToolkit
-    cd FacebookToolkit
-    composer install
+php run.php -h
+y no olvide preguntar en la página del problema. Si tiene información adicional, puede hacerlo en la página del problema .
 
-### Termux
+Gracias
+Gracias por todo.
 
-    pkg install php
-    pkg install curl
-    pkg update
+CLIMate Biblioteca: CLIMate .
+PHP CLI Color Clase: PHPColor .
+Generador de arte ASCII: TAAG .
+Donación
+If you want to buy my coffee, you can send payments Paypal.
+Donar
 
-    git clone https://github.com/warifp/FacebookToolkit
-    cd FacebookToolkit
-    composer install
+Descargo de responsabilidad
+Esta es una fuente abierta para todos, puede redistribuir, modificar, usar patentes y usar de forma privada sin ninguna obligación de redistribuir. pero debe tenerse en cuenta que debe incluir el código fuente de la biblioteca que se modificó (no el código fuente de todo el programa), incluir la licencia, incluir los derechos de autor originales del autor (warifp) e incluir cualquier cambio realizado (si se modificó). ). Los usuarios no tienen derecho a demandar al creador cuando hay daños en el software o incluso demandar si hay un problema causado por los creadores de esta herramienta. porque todo riesgo es causado por el propio riesgo del usuario.
 
-## Requirements for using this tool
-
-We need several requirements to use this tool to run smoothly.
-
-##### Linux & macOS
-
-![PHP 7.X](https://img.shields.io/badge/PHP-7.X-success.svg "PHP 7.X")
-![PHP CURL](https://img.shields.io/badge/PHP%20CURL-ALL-success.svg "PHP CURL")
-
-##### Windows
-
-![PHP CURL](https://img.shields.io/badge/XAMPP-7.3.5-success.svg "XAMPP 7.X")
-
-## Usage
-
-Enough to execute the command :
-
-    php run.php
-
-Cek list menu tools, use the command :
-
-    php run.php -m
-
-Cek author, use the command :
-
-    php run.php -a
-
-Cek version, use the command :
-
-    php run.php -v
-
-Cek update, use the command :
-
-    php run.php -u
-
-and help, use the command :
-
-    php run.php -h
-
-and don't forget to ask at [issue page](https://github.com/warifp/FacebookToolkit/issues)
-If you have additional information, you can make it on the [issue page](https://github.com/warifp/FacebookToolkit/issues).
-
-## Thanks
-
-Thank you for all.
-
-1.  CLIMate Library : [CLIMate](https://climate.thephpleague.com/).
-2.  PHP CLI Color Class : [PHPColor](https://www.if-not-true-then-false.com/2010/php-class-for-coloring-php-command-line-cli-scripts-output-php-output-colorizing-using-bash-shell-colors/).
-3.  ASCII Art Generator : [TAAG](http://patorjk.com/software/taag).
-
-## Donation
-
-    If you want to buy my coffee, you can send payments Paypal.
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/microlabs)
-
-## Disclaimer
-
-This is an open source for everyone, you may redistribute, modify, use patents and use privately without any obligation to redistribute. but it should be noted to include the source code of the library that was modified (not the source code of the entire program), include the license, include the original copyright of the author (warifp), and include any changes made (if modified). Users do not have the right to sue the creator when there is damage to the software or even demand if there is a problem caused by the makers of this tool. because every risk is caused by the user risk itself.
+Lanzamientos 2
+Kit de herramientas de Facebook 1.7
+Último
+el 2 de noviembre de 2019
